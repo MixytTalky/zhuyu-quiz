@@ -1,0 +1,46 @@
+{
+  "name": "你是逐玉裡的誰？",
+  "slug": "zhuyu-quiz",
+  "version": "1.0.0",
+  "description": "回答 8 道情境題，找出你最像《逐玉》哪位角色！11 種結果等你解鎖",
+  "author": "",
+  "category": "other",
+  "tags": ["quiz", "personality", "zhuyu", "drama", "character-test"],
+  "ads": {
+    "enabled": true,
+    "slots": ["header", "sidebar", "footer"]
+  },
+  "cdn": {
+    "entrypoint": "index.html",
+    "assets": [
+      "style.css",
+      "main.js",
+      "ads/ad-loader.js",
+      "assets/og-image.png",
+      "assets/icons/icon-start.png",
+      "assets/icons/icon-share.png",
+      "assets/icons/icon-restart.png",
+      "assets/questions/question_01.png",
+      "assets/questions/question_02.png",
+      "assets/questions/question_03.png",
+      "assets/questions/question_04.png",
+      "assets/questions/question_05.png",
+      "assets/questions/question_06.png",
+      "assets/questions/question_07.png",
+      "assets/questions/question_08.png",
+      "assets/result-xiezheng.jpg",
+      "assets/result-fanchangyu.jpg",
+      "assets/result-qimin.jpg",
+      "assets/result-gongsunyin.jpg",
+      "assets/result-qishu.jpg",
+      "assets/result-songyan.jpg",
+      "assets/result-lihuaian.jpg",
+      "assets/result-yuqianqian.jpg",
+      "assets/result-fanchangning.jpg",
+      "assets/result-weiyan.jpg",
+      "assets/result-suiyuanqing.jpg"
+    ]
+  },
+  "publishedAt": null,
+  "createdAt": "2026-03-25"
+}

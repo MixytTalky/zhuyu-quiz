@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>你是逐玉裡的誰？性格測驗 - 免費線上角色配對 | Tool-Maker</title>
+  <meta name="description" content="回答 8 道情境題，找出你最像《逐玉》哪位角色！謝征、樊長玉、齊旻、齊姝…11 種結果等你解鎖，完成後分享給朋友一起測！" />
+  <meta property="og:title" content="你是逐玉裡的誰？角色性格測驗" />
+  <meta property="og:description" content="8 道情境題揭曉你的《逐玉》靈魂角色！立即測試，分享你的結果" />
+  <meta property="og:image" content="./assets/og-image.png" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="ad-slot ad-slot--header" data-ad-slot="header" aria-label="Advertisement"></div>
+  </header>
+
+  <main class="tool-layout">
+    <div class="tool-content">
+      <div id="app-container" class="card">
+        
+        <!-- Start Screen -->
+        <div id="screen-start" class="screen active">
+          <h1 class="gradient-title title-serif">你是逐玉裡的誰？</h1>
+          <p class="subtitle text-muted">回答 8 道情境題，找出你最像《逐玉》哪位角色！</p>
+          <div class="start-cover">
+            <img src="./assets/og-image.png" alt="測驗封面" class="cover-img" />
+          </div>
+          <div class="action-buttons mt-6">
+            <button id="btn-start" class="btn btn-primary">
+              <img src="./assets/icons/icon-start.png" alt="" class="btn-icon" /> 開始測驗
+            </button>
+          </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="screen-quiz" class="screen hidden">
+          <div class="quiz-header">
+            <div class="progress-bar">
+              <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <div class="question-counter text-muted">
+              問題 <span id="q-current">1</span> / <span id="q-total">8</span>
+            </div>
+          </div>
+          <div class="question-illustration-wrap">
+            <img id="question-illustration" class="question-illustration" alt="題目情境" loading="eager" />
+          </div>
+          <h2 id="question-text" class="question-text title-serif"></h2>
+          <div id="options-container" class="options-container">
+            <!-- options here -->
+          </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="screen-result" class="screen hidden">
+          <h2 class="title-serif text-muted mb-2">你的專屬角色是...</h2>
+          <div class="result-portrait-wrap">
+            <img id="result-image" class="result-image" alt="角色配對結果" />
+          </div>
+          <h1 id="result-title" class="result-title gradient-title title-serif"></h1>
+          <h3 id="result-archetype" class="result-archetype text-accent"></h3>
+          <p id="result-desc" class="result-desc text-muted"></p>
+          
+          <div class="action-buttons mt-6">
+            <button id="btn-share" class="btn btn-primary">
+              <img src="./assets/icons/icon-share.png" alt="" class="btn-icon" /> 分享結果
+            </button>
+            <button id="btn-restart" class="btn btn-secondary">
+              <img src="./assets/icons/icon-restart.png" alt="" class="btn-icon" /> 重新測驗
+            </button>
+          </div>
+          <div id="toast" class="toast hidden">結果已複製到剪貼簿！</div>
+        </div>
+
+      </div>
+    </div>
+
+    <aside class="tool-sidebar">
+      <div class="ad-slot ad-slot--sidebar" data-ad-slot="sidebar" aria-label="Advertisement"></div>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="ad-slot ad-slot--footer" data-ad-slot="footer" aria-label="Advertisement"></div>
+  </footer>
+
+  <script src="./main.js"></script>
+  <script src="./ads/ad-loader.js"></script>
+</body>
+</html>
