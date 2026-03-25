@@ -2,17 +2,17 @@
   'use strict';
 
   const characters = {
-    xiezheng: { name: '謝征', archetype: '隱世謀略家', desc: '你外表溫潤如玉，內心卻有著驚人的謀略。習慣將真實實力藏於不露聲色之下，默默守護身邊重要的人。', img: './assets/result-xiezheng.jpg' },
-    fanchangyu: { name: '樊長玉', archetype: '熱血戰士', desc: '你天生正義感爆棚，遇到不平之事絕不袖手旁觀。雖然有時魯莽，但你的真誠與勇敢是最強大的武器。', img: './assets/result-fanchangyu.jpg' },
-    qimin: { name: '齊旻', archetype: '孤傲皇孫', desc: '你身上有著與生俱來的高貴氣質，命運多舛卻從不自怨自艾。你選擇沉默承受，暗中籌謀一切。', img: './assets/result-qimin.jpg' },
-    gongsunyin: { name: '公孫鄞', archetype: '智慧學者', desc: '你是團隊中最可靠的智囊。博覽群書、冷靜分析，總能在關鍵時刻提供最理性的建議。', img: './assets/result-gongsunyin.jpg' },
-    qishu: { name: '齊姝', archetype: '率性公主', desc: '你不被身份束縛，敢愛敢恨。即使身處高位，也願意為了真心放下一切，活出真正的自己。', img: './assets/result-qishu.jpg' },
-    songyan: { name: '宋硯', archetype: '野心家', desc: '你極度務實，目標明確，為了往上爬可以做出艱難的取捨。你相信成功需要代價，而你願意支付。', img: './assets/result-songyan.jpg' },
-    lihuaian: { name: '李懷安', archetype: '滄桑君子', desc: '你是真正的君子——前半生意氣風發，後半生即使歷經磨難也不改風骨。克制隱忍是你的修行，仁善是你的底色。', img: './assets/result-lihuaian.jpg' },
-    yuqianqian: { name: '俞淺淺', archetype: '俠義女商', desc: '你獨立又仗義，經商頭腦與俠義心腸兼具。朋友有難時第一個衝出來，用溫暖照亮身邊每一個人。', img: './assets/result-yuqianqian.jpg' },
-    fanchangning: { name: '樊長寧', archetype: '堅強小妹', desc: '你看似柔弱，內心卻有超乎想像的堅韌。面對危機能冷靜應對，對家人的愛深沉而細膩。', img: './assets/result-fanchangning.jpg' },
-    weiyan: { name: '魏嚴', archetype: '梟雄權臣', desc: '你是天生的掌權者，手腕高明、心思深沉。表面冷酷無情，內心卻被某段過往牢牢束縛。', img: './assets/result-weiyan.jpg' },
-    suiyuanqing: { name: '隨元青', archetype: '瘋狂世子', desc: '你張狂不羈，做事不按牌理出牌。然而在瘋狂的外表下，你比誰都渴望被理解、被接納。', img: './assets/result-suiyuanqing.jpg' }
+    xiezheng: { name: '謝征', archetype: '隱世謀略家', desc: '你外表溫潤如玉，內心卻有著驚人的謀略。習慣將真實實力藏於不露聲色之下，默默守護身邊重要的人。', img: './assets/result-xiezheng.png' },
+    fanchangyu: { name: '樊長玉', archetype: '熱血戰士', desc: '你天生正義感爆棚，遇到不平之事絕不袖手旁觀。雖然有時魯莽，但你的真誠與勇敢是最強大的武器。', img: './assets/result-fanchangyu.png' },
+    qimin: { name: '齊旻', archetype: '孤傲皇孫', desc: '你身上有著與生俱來的高貴氣質，命運多舛卻從不自怨自艾。你選擇沉默承受，暗中籌謀一切。', img: './assets/result-qimin.png' },
+    gongsunyin: { name: '公孫鄞', archetype: '智慧學者', desc: '你是團隊中最可靠的智囊。博覽群書、冷靜分析，總能在關鍵時刻提供最理性的建議。', img: './assets/result-gongsunyin.png' },
+    qishu: { name: '齊姝', archetype: '率性公主', desc: '你不被身份束縛，敢愛敢恨。即使身處高位，也願意為了真心放下一切，活出真正的自己。', img: './assets/result-qishu.png' },
+    songyan: { name: '宋硯', archetype: '野心家', desc: '你極度務實，目標明確，為了往上爬可以做出艱難的取捨。你相信成功需要代價，而你願意支付。', img: './assets/result-songyan.png' },
+    lihuaian: { name: '李懷安', archetype: '滄桑君子', desc: '你是真正的君子——前半生意氣風發，後半生即使歷經磨難也不改風骨。克制隱忍是你的修行，仁善是你的底色。', img: './assets/result-lihuaian.png' },
+    yuqianqian: { name: '俞淺淺', archetype: '俠義女商', desc: '你獨立又仗義，經商頭腦與俠義心腸兼具。朋友有難時第一個衝出來，用溫暖照亮身邊每一個人。', img: './assets/result-yuqianqian.png' },
+    fanchangning: { name: '樊長寧', archetype: '堅強小妹', desc: '你看似柔弱，內心卻有超乎想像的堅韌。面對危機能冷靜應對，對家人的愛深沉而細膩。', img: './assets/result-fanchangning.png' },
+    weiyan: { name: '魏嚴', archetype: '梟雄權臣', desc: '你是天生的掌權者，手腕高明、心思深沉。表面冷酷無情，內心卻被某段過往牢牢束縛。', img: './assets/result-weiyan.png' },
+    suiyuanqing: { name: '隨元青', archetype: '瘋狂世子', desc: '你張狂不羈，做事不按牌理出牌。然而在瘋狂的外表下，你比誰都渴望被理解、被接納。', img: './assets/result-suiyuanqing.png' }
   };
 
   const questions = [
